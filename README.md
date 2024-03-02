@@ -9,7 +9,7 @@
 
 ## Python mini bootcamp
 
-In this two-day workshop, we'll learn the basics of the Python programming language and how to begin analyzing data in a Jupyter Notebook. What's a Notebook? It's an interactive environment *in your web browser* that lets you blend words with code. 
+In this two-day workshop, we'll learn the basics of the Python programming language and how to begin analyzing data in a Jupyter Notebook. What's a Notebook? It's an interactive environment *in your web browser* that lets you blend words and code.
 
 Confused? Of course.
 
