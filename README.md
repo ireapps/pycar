@@ -9,31 +9,37 @@
 
 ## Python mini boot camp at [#NICAR20](https://www.ire.org/events-and-training/conferences/nicar-2020/) in New Orleans.
 
-In this two-day workshop, we'll use the Jupyter notebook to explore the Python programming language. At the end of the class, we'll give you all of the code from the exercises, along with several cheatsheets and tutorials, to take home with you, all from this code repository on Github.
+In this two-day workshop, we'll learn the basics of the Python programming language and how to begin analyzing data in a Jupyter Notebook. What's a Notebook? It's an interactive environment that lets you blend words with coe. 
 
-### Day 1
-#### [Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
+Confused? Of course.
+
+Bear with us. It will all make sense soon.
+
+## Day 1
+
+### [Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
+
 
 * Who are you, what do you do, what do you want to learn?
 * What will we learn?
 * What can I do with it?
 * The goal of the day is to start to learn how to think about solving problems.
 
-#### [The Basics](https://github.com/ireapps/pycar/tree/master/basics)
+### [The Basics](https://github.com/ireapps/pycar/tree/master/basics)
 We'll introduce some key concepts of programming and Python types like strings, integers, lists, slicing and loops.
 
-#### A [discussion on debugging](https://docs.google.com/presentation/d/e/2PACX-1vTCwzQnH0Ps8xmqnxGBYayCyas8-53qJyo-yjIy5qy4P2xUOA-kiAOQCNTiCzRBVX7TxeBabx1pvpBQ/pub?start=false&loop=false&delayms=3000) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
+### A [discussion on debugging](https://docs.google.com/presentation/d/e/2PACX-1vTCwzQnH0Ps8xmqnxGBYayCyas8-53qJyo-yjIy5qy4P2xUOA-kiAOQCNTiCzRBVX7TxeBabx1pvpBQ/pub?start=false&loop=false&delayms=3000) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
 
 ### Day 2
 #### [Project #1](https://github.com/ireapps/pycar/tree/master/project1)
 As with many data analyses, it all starts with a CSV. After a white board exercise, we'll start with a file of pseudocode, and we'll walk through writing the program in Python code, running each line in the Jupyter interpreter. We'll hold your hand through each step of the process.
 
-#### [Project #2](https://github.com/ireapps/pycar/tree/master/project2)
+### [Project #2](https://github.com/ireapps/pycar/tree/master/project2)
 This section covers gathering data from the web in two common formats.
 In the first part, we'll scrape structured data from an HTML page using a GET request and write the data to a CSV. In the second part, we'll request data from an API to get information programmatically to create a spreadsheet. Our data comes in a new format: JSON. We'll do some more with the white board to show how it's basically a combination of data structures we already know about: Lists and dictionaries (arrays and objects).
 
-#### [Project #3](https://github.com/ireapps/pycar/tree/master/project3)
+### [Project #3](https://github.com/ireapps/pycar/tree/master/project3)
 Now we get to the heart of data analysis with an introduction to the powerful `pandas` library. Building on the basic objects we've already learned, and on a little knowledge of SQL, we'll clean two related tables of data, join and filter them.
 
 At the end of the day, we'll __[send you home with](takehome/README.md)__:
