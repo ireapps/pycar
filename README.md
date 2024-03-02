@@ -7,9 +7,9 @@
        `-'
 ```
 
-## Python mini boot camp at [#NICAR20](https://www.ire.org/events-and-training/conferences/nicar-2020/) in New Orleans.
+## Python mini bootcamp
 
-In this two-day workshop, we'll learn the basics of the Python programming language and how to begin analyzing data in a Jupyter Notebook. What's a Notebook? It's an interactive environment that lets you blend words with coe. 
+In this two-day workshop, we'll learn the basics of the Python programming language and how to begin analyzing data in a Jupyter Notebook. What's a Notebook? It's an interactive environment *in your web browser* that lets you blend words with code. 
 
 Confused? Of course.
 
@@ -17,16 +17,19 @@ Bear with us. It will all make sense soon.
 
 ## Day 1
 
-### [Introduction](https://ireapps.github.io/pycar/pycar_intro.html)
-
+### Intros
 
 * Who are you, what do you do, what do you want to learn?
 * What will we learn?
 * What can I do with it?
-* The goal of the day is to start to learn how to think about solving problems.
+* GOAL: Learn how to solve problems with code.
 
 ### [The Basics](https://github.com/ireapps/pycar/tree/master/basics)
-We'll introduce some key concepts of programming and Python types like strings, integers, lists, slicing and loops.
+Key concepts of programming in Python:
+
+- Basic data types - strings, integers, lists
+- Lists are your friend!
+- etc
 
 ### A [discussion on debugging](https://docs.google.com/presentation/d/e/2PACX-1vTCwzQnH0Ps8xmqnxGBYayCyas8-53qJyo-yjIy5qy4P2xUOA-kiAOQCNTiCzRBVX7TxeBabx1pvpBQ/pub?start=false&loop=false&delayms=3000) and [cheatsheet](https://github.com/ireapps/pycar/tree/master/debug/DebugginginPython.pdf)
 
