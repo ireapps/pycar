@@ -1,11 +1,11 @@
-THE BASICS
-==========
+# THE BASICS
 
-**9:30 - 10:45 a.m.**
+
+> Approx. 1 hour, 15 minutes
 
 What is a [number](https://docs.python.org/3/tutorial/introduction.html#numbers)? What is a [string](https://docs.python.org/3/tutorial/introduction.html#strings)? What is a [list](https://docs.python.org/3/tutorial/introduction.html#lists)?
 
-Nevermind that, what's a [Python](https://docs.python.org/3.6/)?
+Nevermind that, what's a [Python](https://docs.python.org/3/)?
 
 Before we get started with learning programming concepts, let's take a step back and get a high-level overview of what programming even is.
 
@@ -13,17 +13,17 @@ Programming is not mystical, magical or special. Programming is more of a craft 
 
 You already know the components of programming. You have been exercising the reasoning programming relies on for your entire life, probably without even realizing it. Programming is just a way to take the logic you already use on a daily basis and express it in a way a computer can understand and act upon.
 
-Card games and games like tic-tac-toe are classic programming tests because they require you to encapsulate the way you reason about those games in a way a computer can understand. So we'll use a card game, solitaire, to talk about some basic programming concepts over in the `basics_notebook`. Head over there, and then come back here for some reference.
+Card games and games like tic-tac-toe are classic programming tests because they require you to encapsulate the way you reason about those games in a way a computer can understand. So we'll use a card game, solitaire, to talk about some basic programming concepts over in the [basics_notebook.ipynb](basics_notebook.ipynb). Head over there, and then come back here for some reference.
 
 ## About Python
 
 Python is a programming language. It was created around 1991 by an individual named [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum).
 
-You may hear others call Python a [scripting language](https://en.wikipedia.org/wiki/Scripting_language). You may also hear it called an interpretative language. In essence, these are interchangeable terms. In Python you write programs that are interpreted line by line. These programs - or scripts - automate tasks that would otherwise be completed one by one.
+You may hear others call Python a [scripting language](https://en.wikipedia.org/wiki/Scripting_language). You may also hear it called an ["interpreted"](https://en.wikipedia.org/wiki/Interpreter_(computing)) language. In essence, these are interchangeable terms. In Python you write programs that are interpreted line by line. These programs - or scripts - automate tasks that would otherwise be completed one by one.
 
 The Python interpreter can be accessed through the command line (terminal, shell, etc). On Unix-based (Mac OS) or Linux machines, which come with Python installed by default, you enter the Python interpreter by typing ```python``` followed by the return key. On a Windows machine, things are a bit more cumbersome.
 
-One feature of Python that takes some getting used to is its use of indentation to organize blocks of code. One to remember this is to think of creating an outline. You have main bullet points and you might have an item indented beneath that relates to something above it. In essence, this is python.
+One feature of Python that takes some getting used to is its use of indentation to organize blocks of code. One way to remember this is to think of creating an outline. You have main bullet points and you might have an item indented beneath that relates to something above it. In essence, this is Python.
 
        the python interpreter reads this line first and takes action
            and then reads this line and takes action
@@ -34,7 +34,7 @@ Before we get started, this is meant to be an overview of Python and show you so
 
 > While you are studying programming, I'm studying how to play guitar. I practice it every day for at least two hours a day. I play scales, chords, and arpeggios for an hour and then learn music theory, ear training, songs, and anything else I can. Some days I study guitar and music for eight hours because I feel like it and it's fun. To me repetitive practice is natural and just how to learn something. I know that to get good at anything you have to practice every day, even if I suck that day (which is often) or it's difficult. Keep trying and eventually it'll be easier and fun.
 
-Anyways, let's get started by looking at some key components of any programming language - variables, strings, numbers and comparisons. All of this is contained within the [official Python tutorial](https://docs.python.org/3.7/tutorial/introduction.html#) to the standard library. We'll consider Python lists as a container that we can fill and we'll work toward using a couple core libraries - ```urllib``` and ```csv```  - to download a CSV file and read the contents.
+Anyways, let's get started by looking at some key components of any programming language - variables, strings, numbers and comparisons. All of this is contained within the [official Python tutorial](https://docs.python.org/3/tutorial/introduction.html#) to the standard library. We'll consider Python lists as a container that we can fill and we'll work toward using a couple core libraries - [urllib](https://docs.python.org/3/library/urllib.html) and [csv](https://docs.python.org/3/library/csv.html)  - to download a CSV file and read the contents.
 
 **The files**
 
@@ -93,7 +93,7 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * ```my_variable = "my value of the variable"```
 
-    * [Numbers](https://docs.python.org/2/tutorial/introduction.html#numbers)
+    * [Numbers](https://docs.python.org/3/tutorial/introduction.html#numbers)
 
         * Whole numbers have a type and that type is integer
 
@@ -101,7 +101,7 @@ Anyways, let's get started by looking at some key components of any programming 
 
         * Learning about numbers
 
-            * get the [type](https://docs.python.org/2/library/functions.html#type)
+            * get the [type](https://docs.python.org/3/library/functions.html#type)
 
             * addition
 
@@ -117,7 +117,7 @@ Anyways, let's get started by looking at some key components of any programming 
 
                         ```(new - old) / old```
 
-    * [Strings](https://docs.python.org/2/tutorial/introduction.html#strings)
+    * [Text](https://docs.python.org/3/tutorial/introduction.html#text) (or more formally in Python, "strings")
 
         * Generally, synonymous with characters.
 
@@ -141,27 +141,27 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * get its length
 
-            * [lowercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lower)
+            * [lowercase](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.lower)
 
-            * [uppercase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.upper)
+            * [uppercase](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.upper)
 
-            * [titlecase](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.title)
+            * [titlecase](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.title)
 
-            * [split](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.split)
+            * [split](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.split)
 
             * join
 
-            * [replace a character](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.replace)
+            * [replace a character](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.replace)
 
             * strip whitespace
 
-                * [all](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.strip)
+                * [all](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.strip)
 
-                * [leading whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.lstrip)
+                * [leading whitespace](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.lstrip)
 
-                * [trailing whitespace](https://docs.python.org/2/library/stdtypes.html?highlight=strip#str.rstrip)
+                * [trailing whitespace](https://docs.python.org/3/library/stdtypes.html?highlight=strip#str.rstrip)
 
-    * [Lists](https://docs.python.org/2/tutorial/introduction.html#lists)
+    * [Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
 
         * We learned that integers and strings are data types
 
@@ -191,7 +191,7 @@ Anyways, let's get started by looking at some key components of any programming 
 
             * "[A conditional statement](https://en.wikipedia.org/wiki/Conditional_(computer_programming)), conditional expressions and conditional constructs are features of a programming language which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false."
 
-                * [for](https://docs.python.org/2/tutorial/controlflow.html#for-statements)
+                * [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
 
                     * The ```for``` statement iterates through a list or a string in the order they appear.
 
@@ -199,7 +199,7 @@ Anyways, let's get started by looking at some key components of any programming 
                             for x in my_list:
                                 print x
 
-                * [if/elif/else](https://docs.python.org/2/tutorial/controlflow.html#if-statements)
+                * [if / elif / else](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
 
                     * The ```for``` statement iterates through a list or a string in the order they appear.
 
@@ -209,7 +209,7 @@ Anyways, let's get started by looking at some key components of any programming 
                             else:
                                 print "it's not the same"
 
-        * [Comparisons](https://docs.python.org/2/library/stdtypes.html#comparisons)
+        * [Comparisons](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
             * equals (==)
 
