@@ -1,4 +1,4 @@
-# Teachers Guide
+# Teacher's Guide
 
 First off, a hearty thanks if you plan to help teach this course at NICAR! We appreciate you paying it forward :)
 
@@ -10,3 +10,60 @@ Generally, each lesson plan includes the following elements:
 - `<folder>/<notebook.ipynb>` - notebook with exercises (but no solutions) intended for students to work with during class
 - `completed/<notebook_completed.ipynb>` - a completed notebook containing solutions for the corresponding `<folder>/<notebook.ipynb>`. Instructors can print this or use a second screen to guide the lesson.
 
+Below are additional details on each lesson plan.
+
+## The Codespaces Two-Step
+
+As of NICAR24, we're using [GitHub Codespaces](https://github.com/features/codespaces) to work in Jupyter Notebooks. The goal is to minimize installation headaches by providing a preconfigured, cloud-based environment.
+
+At the start of class, instructors should:
+
+- Direct students to log into their GitHub accounts
+- Go to the class repo on GH
+- Click the big green `Code` button
+- Select the Codespaces tab
+- Click the big green `Create codespace...` button. 
+
+Here's a screenshot:
+
+![codespace bootstrap](static/img/codespace_bootstrap.png)
+
+It usually takes a few minutes to initially spin up due to customizations we've made to the environment. 
+
+Might be helpful during this time to provide a brief overview of Codespaces, noting in particular that it uses VS Code so everything they're about to learn in the cloud transfers easily to working on their own machines beyond class. 
+
+Also worth mentionging: It's a freemium model and generally they shouldn't incur any charges (or have to put down a credit card) with reasonable usage levels.
+
+And, even better, the coding environment is hangs around for a day (or two?), so they can pick up their work on Day 2 right where they left off.
+
+### Codespace customizations
+
+The Codespaces environment for this repo has been customized to use a recent version of Python and automatically installs of various libraries used in the lessons (e.g. `pandas`), along with important VS Code extensions for Python and Jupyter.
+
+To update the Python version and add dependencies or VS Code extensions, check out the Codespace configuration and Dockerfile in the `.devcontainer` folder.
+
+If you discover you're missing a library in the middle of a class, a fallback option is to open the terminal shell and just `pip install`. 
+
+Also, note that whenever you create/open a Jupyter notebook for the first time in Codespaces, you'll need to select a Python kernel. It's a suboptimal workflow for students, but it should only take a few moments to walk them through the process.
+
+## Basics
+
+Provides an overview of basic Python data types and syntax. Here's the order of operations:
+
+- `basics/README.md` - Big picture on coding and outline of Python language basics that will be covered in the first notebook.
+- `basics/basics_reference_notebook.ipynb` - exercise notebook that students should open and work in during the lesson
+- `completed/basics_reference_completed.ipynb` - teacher's guide/solutions for `basics/basics_reference_notebook.ipynb`
+
+TK - `basics/basics_notebook.ipynb` and corresponding completed notebook
+
+## Project 1
+
+TK
+
+## Project 2 
+
+> This is obsolete as of NICAR 2024. Skip straight to Project 3
+
+## Project 3
+
+TK
