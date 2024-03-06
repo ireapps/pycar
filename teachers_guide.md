@@ -32,19 +32,20 @@ It usually takes a few minutes to initially spin up due to customizations we've 
 
 Might be helpful during this time to provide a brief overview of Codespaces, noting in particular that it uses VS Code so everything they're about to learn in the cloud transfers easily to working on their own machines beyond class. 
 
-Also worth mentionging: It's a freemium model and generally they shouldn't incur any charges (or have to put down a credit card) with reasonable usage levels.
+Also worth mentioning: 
 
-And, even better, the coding environment is hangs around for a day (or two?), so they can pick up their work on Day 2 right where they left off.
+- It's a freemium model and generally they shouldn't incur any charges (or have to put down a credit card) with reasonable usage levels.
+- The coding environment is saved for a day (or two?), so students can pick up their work on Day 2 right where they left off.
 
 ### Codespace customizations
 
-The Codespaces environment for this repo has been customized to use a recent version of Python and automatically installs of various libraries used in the lessons (e.g. `pandas`), along with important VS Code extensions for Python and Jupyter.
+The Codespaces environment for this repo has been customized to use a recent version of Python and to automatically install various libraries used in the lessons (e.g. `pandas`), along with important VS Code extensions for Python and Jupyter.
 
-To update the Python version and add dependencies or VS Code extensions, check out the Codespace configuration and Dockerfile in the `.devcontainer` folder.
+To update the Python version and add dependencies or VS Code extensions, check out the Codespace configuration and Dockerfile in the `.devcontainer` folder. Also relevant is the GitHub action that controls the build process: `.github//workflows/docker-image.yaml`.
 
-If you discover you're missing a library in the middle of a class, a fallback option is to open the terminal shell and just `pip install`. 
+If you discover you're missing a library in the middle of class, as a simple fallback you can open the terminal shell and just `pip install` libraries as needed.
 
-Also, note that whenever you create/open a Jupyter notebook for the first time in Codespaces, you'll need to select a Python kernel. It's a suboptimal workflow for students, but it should only take a few moments to walk them through the process.
+Also, note that whenever you create/open a Jupyter Notebook for the first time in Codespaces, you'll need to select a Python kernel. Codespaces/VS Code typically prompts you to select the kernel on the first attempt to run a notebook cell with an `import` statement. It's an arcane bit of workflow for students new to programming, but it should only take a few moments to walk them through the process.
 
 ## Basics
 
