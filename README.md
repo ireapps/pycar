@@ -15,6 +15,8 @@ Confused? Of course.
 
 Bear with us. It will all make sense soon.
 
+> Instructors, check out the [Teacher's Guide](teachers_guide.md).
+
 ## Day 1
 
 ### Intros
