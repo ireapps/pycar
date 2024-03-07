@@ -52,10 +52,8 @@ Also, note that whenever you create/open a Jupyter Notebook for the first time i
 Provides an overview of basic Python data types and syntax. Here's the order of operations:
 
 - `basics/README.md` - Big picture on coding and outline of Python language basics that will be covered in the first notebook.
-- `basics/basics_reference_notebook.ipynb` - exercise notebook that students should open and work in during the lesson
-- `completed/basics_reference_completed.ipynb` - teacher's guide/solutions for `basics/basics_reference_notebook.ipynb`
-
-TK - `basics/basics_notebook.ipynb` and corresponding completed notebook
+- [basics/basics_reference_notebook.ipynb](basics/basics_reference_notebook.ipynb) - exercise notebook that students should open and work in during the lesson ([teacher's guide/solutions](completed/basics_reference_completed.ipynb))
+- [basics/basics_notebook.ipynb](basics/basics_notebook.ipynb) - Iliad word frequency exercise ([teacher's guide/solutions](completed/basics_complete_notebook.ipynb))
 
 ## Project 1
 
